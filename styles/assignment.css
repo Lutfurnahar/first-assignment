@@ -1,0 +1,90 @@
+.banner {
+    padding: 300px 100px;
+
+
+    background-image: url('../images/banner/banner1.png');
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.banner-info {
+    text-align: end;
+    width: 500px;
+    margin-left: auto;
+}
+
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.banner-description {
+    color: #444343;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+}
+
+.about-area {
+    padding: 100px 500px;
+    display: flex;
+    align-items: center;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+    
+}
+.about-content p{ 
+
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+
+
+
+
+}
+.about-content ul li{
+    list-style: none;
+
+}
+.about-content ul{
+    margin: 0;
+    padding: 0;
+}
+.plan{
+    padding: 50px 200px;
+}
+.plan-title{
+    text-align: center;
+
+    
+}
+.plan-taitle h1{
+    font-size: 40px;
+}
+.plan-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-content{
+    text-align: center;
+}
