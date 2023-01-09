@@ -104,7 +104,7 @@
     text-decoration: none;
 }
 .contact-contant{
-    background-image: url('/images/watch.png');
+    background-image: url('../images/watch.png');
     padding: 200px 20px;
     background-size: cover;
     background-position: center;
