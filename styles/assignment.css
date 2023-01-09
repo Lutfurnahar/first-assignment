@@ -39,9 +39,14 @@
 }
 
 .about-area {
-    padding: 100px 500px;
+    padding: 100px 300px;
     display: flex;
     align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+.about-image img{
+    width: 400px;
 }
 
 .about-title {
@@ -87,4 +92,68 @@
 }
 .plan-content{
     text-align: center;
+}
+.contact-contant a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 60px;
+    background-color: aliceblue;
+    color: coral;
+    text-decoration: none;
+}
+.contact-contant{
+    background-image: url('/images/watch.png');
+    padding: 200px 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact{
+    padding: 50px;
+
+}
+.contact-contant h1{
+    margin-bottom: 10px;
+
+}
+
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px 70px;
+}
+.footer-content h1{
+    color: aliceblue;
+    
+}
+.footer-content p{
+    color: aliceblue;
+}
+.footer-content{
+    width: 40%;
+}
+.footer-form{
+    color: aliceblue;
+}
+.footer-form h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.footer-form input{
+    width: 300px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 5px 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+.footer-form button{
+    height: 50px;
+    width: 150px;
+    color: #F15B22;
 }
